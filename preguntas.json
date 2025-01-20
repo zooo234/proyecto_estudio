@@ -1,0 +1,74 @@
+{
+  "preguntas_generales": [
+    {
+      "informacion": "La Revolución Industrial marcó un cambio significativo en la forma de producción de bienes, pasando del trabajo manual a la maquinaria.",
+      "pregunta": "¿En qué siglo comenzó la Revolución Industrial?",
+      "opciones": ["Siglo XVII", "Siglo XVIII", "Siglo XIX", "Siglo XX"],
+      "respuesta_correcta": "Siglo XVIII"
+    }
+  ],
+  "tematicas": {
+    "historia": [
+      {
+        "informacion": "La Primera Guerra Mundial comenzó en 1914 y terminó en 1918. Fue conocida como 'La Gran Guerra'.",
+        "pregunta": "¿Cuál fue el año en que finalizó la Primera Guerra Mundial?",
+        "opciones": ["1916", "1917", "1918", "1919"],
+        "respuesta_correcta": "1918"
+      }
+    ],
+    "geografia": [
+      {
+        "informacion": "El Amazonas es el río más largo del mundo, ubicado principalmente en América del Sur.",
+        "pregunta": "¿En qué continente se encuentra el río Amazonas?",
+        "opciones": ["América", "Asia", "África", "Oceanía"],
+        "respuesta_correcta": "América"
+      }
+    ],
+    "ciencia": [
+      {
+        "informacion": "El agua está compuesta por dos átomos de hidrógeno y uno de oxígeno, lo que le da la fórmula química H₂O.",
+        "pregunta": "¿Cuál es la fórmula química del agua?",
+        "opciones": ["H₂O", "CO₂", "O₂", "N₂"],
+        "respuesta_correcta": "H₂O"
+      }
+    ]
+  },
+  "niveles": {
+    "facil": [
+      {
+        "informacion": "La capital de México es Ciudad de México.",
+        "pregunta": "¿Cuál es la capital de México?",
+        "opciones": ["Monterrey", "Ciudad de México", "Guadalajara"],
+        "respuesta_correcta": "Ciudad de México"
+      },
+      {
+        "informacion": "Los elefantes tienen orejas grandes que les ayudan a regular su temperatura.",
+        "pregunta": "¿Para qué sirven las orejas grandes de los elefantes?",
+        "opciones": ["Para volar", "Para regular su temperatura", "Para nadar mejor"],
+        "respuesta_correcta": "Para regular su temperatura"
+      }
+    ],
+    "intermedio": [
+      {
+        "informacion": "El idioma más hablado en el mundo es el inglés.",
+        "pregunta": "¿Cuál es el idioma más hablado en el mundo?",
+        "opciones": ["Español", "Inglés", "Chino mandarín"],
+        "respuesta_correcta": "Inglés"
+      },
+      {
+        "informacion": "La Gran Muralla China tiene más de 21,000 kilómetros de longitud.",
+        "pregunta": "¿Cuántos kilómetros mide aproximadamente la Gran Muralla China?",
+        "opciones": ["10,000 km", "Más de 21,000 km", "5,000 km"],
+        "respuesta_correcta": "Más de 21,000 km"
+      }
+    ],
+    "dificil": [
+      {
+        "informacion": "La primera novela moderna fue 'Don Quijote de la Mancha' escrita por Miguel de Cervantes.",
+        "pregunta": "¿Quién escribió 'Don Quijote de la Mancha'?",
+        "opciones": ["William Shakespeare", "Miguel de Cervantes", "Gabriel García Márquez"],
+        "respuesta_correcta": "Miguel de Cervantes"
+      }
+    ]
+  }
+}
