@@ -58,7 +58,7 @@
         "pregunta": "¿Qué elemento químico tiene como símbolo 'O'?",
         "opciones": ["Oxígeno", "Oro", "Osmio", "Oxalato"],
         "respuesta_correcta": "Oxígeno"
-    }
+    },
    {
         "informacion": "El río Amazonas es el río más largo del mundo, con una longitud estimada de más de 7,000 kilómetros.",
         "pregunta": "¿Cuál es el río más largo del mundo?",
@@ -118,7 +118,7 @@
         "pregunta": "¿Cuál es el valor aproximado de pi?",
         "opciones": ["3.14159", "2.71828", "1.61803", "3.33333"],
         "respuesta_correcta": "3.14159"
-    }
+    },
   {
         "informacion": "El cuerpo humano tiene 206 huesos en total en la edad adulta.",
         "pregunta": "¿Cuántos huesos tiene el cuerpo humano adulto?",
@@ -183,7 +183,7 @@
             "Cambio climático global"
         ]
         "respuesta_correcta": "Variedad de formas de vida en la Tierra"
-    }
+    },
    {
         "informacion": "La Gran Esfinge de Guiza es una de las esculturas más antiguas del mundo y está ubicada en Egipto.",
         "pregunta": "¿Dónde se encuentra la Gran Esfinge de Guiza?",
@@ -243,7 +243,7 @@
         "pregunta": "¿En qué parte de las células vegetales ocurre la fotosíntesis?",
         "opciones": ["Cloroplastos", "Mitocondrias", "Núcleo", "Citoplasma"],
         "respuesta_correcta": "Cloroplastos"
-    }
+    },
   {
         "informacion": "El Monte Everest, ubicado en la cordillera del Himalaya, es la montaña más alta del mundo con 8,848 metros de altura.",
         "pregunta": "¿Cuál es la montaña más alta del mundo?",
@@ -308,7 +308,7 @@
         "pregunta": "¿Cuál es el símbolo químico del oro?",
         "opciones": ["Au", "Ag", "Fe", "Cu"],
         "respuesta_correcta": "Au"
-    }
+    },
   {
         "informacion": "La Antártida es el continente más frío del planeta y está cubierto casi en su totalidad por hielo.",
         "pregunta": "¿Cuál es el continente más frío de la Tierra?",
@@ -368,7 +368,7 @@
         "pregunta": "¿Cuál es el río más largo de África?",
         "opciones": ["Nilo", "Congo", "Níger", "Zambeze"],
         "respuesta_correcta": "Nilo"
-    }
+    },
   {
         "informacion": "El bosón de Higgs, también conocido como 'la partícula de Dios', fue descubierto en 2012 en el Gran Colisionador de Hadrones.",
         "pregunta": "¿En qué año se descubrió el bosón de Higgs?",
@@ -448,7 +448,7 @@
         "pregunta": "¿Qué tema filosófico aborda la paradoja del barco de Teseo?",
         "opciones": ["La identidad y el cambio", "La percepción de la realidad", "El origen del conocimiento", "La ética del determinismo"],
         "respuesta_correcta": "La identidad y el cambio"
-    }
+    },
   {
         "informacion": "La constante de Planck, denotada como h, es una constante fundamental en la mecánica cuántica, con un valor aproximado de 6.626 × 10⁻³⁴ J·s.",
         "pregunta": "¿Cuál es el valor aproximado de la constante de Planck?",
@@ -533,7 +533,7 @@
         "pregunta": "¿En qué parte de la célula ocurre la fotosíntesis?",
         "opciones": ["Cloroplastos", "Mitocondrias", "Núcleo", "Ribosomas"],
         "respuesta_correcta": "Cloroplastos"
-    }
+    },
    {
         "informacion": "La ecuación E=mc², formulada por Albert Einstein, establece la equivalencia entre masa y energía.",
         "pregunta": "¿Qué describe la ecuación E=mc²?",
@@ -613,7 +613,7 @@
             "La expansión del espacio-tiempo"
         ],
         "respuesta_correcta": "La dilatación del tiempo a altas velocidades"
-    }
+    },
   {
         "informacion": "El bosón de Higgs, descubierto en 2012, es una partícula subatómica que explica cómo las partículas adquieren masa.",
         "pregunta": "¿Qué explica el bosón de Higgs?",
