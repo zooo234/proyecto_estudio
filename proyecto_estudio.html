@@ -5,17 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Preguntas y Respuestas</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Estilos básicos para mejorar la presentación */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #0073e6;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .pregunta {
+            background-color: white;
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .pregunta p {
+            margin: 10px 0;
+        }
+
+        .pregunta ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .pregunta li {
+            margin-bottom: 10px;
+        }
+
+        .pregunta button {
+            padding: 10px 15px;
+            background-color: #0073e6;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .pregunta button:hover {
+            background-color: #005bb5;
+        }
+
+        .resultado {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1>Base de Preguntas y Respuestas</h1>
-        <nav>
-            <ul>
-                <li><a href="#general">Preguntas Generales</a></li>
-                <li><a href="#tematicas">Temáticas</a></li>
-                <li><a href="#niveles">Niveles de Dificultad</a></li>
-            </ul>
-        </nav>
     </header>
 
     <main id="contenido">
@@ -37,53 +89,43 @@
         fetch(jsonFile)
             .then(response => response.json())
             .then(data => {
-                // Renderizar preguntas generales
-                const generales = data.general.map(pregunta => `
+                // Renderizar todas las preguntas
+                const preguntas = data.map((pregunta, index) => `
                     <div class="pregunta">
                         <p><strong>Información:</strong> ${pregunta.informacion}</p>
                         <p><strong>Pregunta:</strong> ${pregunta.pregunta}</p>
                         <ul>
-                            ${pregunta.opciones.map(opcion => `<li>${opcion}</li>`).join('')}
+                            ${pregunta.opciones.map(opcion => `
+                                <li>
+                                    <button onclick="verificarRespuesta(${index}, '${opcion}')">${opcion}</button>
+                                </li>
+                            `).join('')}
                         </ul>
+                        <p id="resultado-${index}" class="resultado"></p>
                     </div>
                 `).join('');
-                main.innerHTML += `<section id="general"><h2>Preguntas Generales</h2>${generales}</section>`;
 
-                // Renderizar temáticas
-                const tematicas = data.tematicas.map(tema => `
-                    <div class="tema">
-                        <h3>${tema.titulo}</h3>
-                        ${tema.preguntas.map(pregunta => `
-                            <div class="pregunta">
-                                <p><strong>Información:</strong> ${pregunta.informacion}</p>
-                                <p><strong>Pregunta:</strong> ${pregunta.pregunta}</p>
-                                <ul>
-                                    ${pregunta.opciones.map(opcion => `<li>${opcion}</li>`).join('')}
-                                </ul>
-                            </div>
-                        `).join('')}
-                    </div>
-                `).join('');
-                main.innerHTML += `<section id="tematicas"><h2>Temáticas</h2>${tematicas}</section>`;
-
-                // Renderizar niveles de dificultad
-                const niveles = data.niveles.map(nivel => `
-                    <div class="nivel">
-                        <h3>${nivel.titulo}</h3>
-                        ${nivel.preguntas.map(pregunta => `
-                            <div class="pregunta">
-                                <p><strong>Dato curioso:</strong> ${pregunta.informacion}</p>
-                                <p><strong>Pregunta:</strong> ${pregunta.pregunta}</p>
-                                <ul>
-                                    ${pregunta.opciones.map(opcion => `<li>${opcion}</li>`).join('')}
-                                </ul>
-                            </div>
-                        `).join('')}
-                    </div>
-                `).join('');
-                main.innerHTML += `<section id="niveles"><h2>Niveles de Dificultad</h2>${niveles}</section>`;
+                // Insertar las preguntas en el contenido principal
+                main.innerHTML = `<section><h2>Preguntas</h2>${preguntas}</section>`;
             })
             .catch(error => console.error('Error cargando el archivo JSON:', error));
+
+        // Función para verificar la respuesta seleccionada
+        function verificarRespuesta(index, opcionSeleccionada) {
+            fetch(jsonFile)
+                .then(response => response.json())
+                .then(data => {
+                    const resultado = document.getElementById(`resultado-${index}`);
+                    if (data[index].respuesta_correcta === opcionSeleccionada) {
+                        resultado.textContent = '¡Correcto!';
+                        resultado.style.color = 'green';
+                    } else {
+                        resultado.textContent = 'Incorrecto. La respuesta correcta es: ' + data[index].respuesta_correcta;
+                        resultado.style.color = 'red';
+                    }
+                })
+                .catch(error => console.error('Error cargando el archivo JSON para la validación:', error));
+        }
     </script>
 </body>
 </html>
