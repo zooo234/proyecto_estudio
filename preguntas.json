@@ -1,74 +1,703 @@
-{
-  "preguntas_generales": [
+[
     {
-      "informacion": "La Revolución Industrial marcó un cambio significativo en la forma de producción de bienes, pasando del trabajo manual a la maquinaria.",
-      "pregunta": "¿En qué siglo comenzó la Revolución Industrial?",
-      "opciones": ["Siglo XVII", "Siglo XVIII", "Siglo XIX", "Siglo XX"],
-      "respuesta_correcta": "Siglo XVIII"
-    }
-  ],
-  "tematicas": {
-    "historia": [
-      {
-        "informacion": "La Primera Guerra Mundial comenzó en 1914 y terminó en 1918. Fue conocida como 'La Gran Guerra'.",
-        "pregunta": "¿Cuál fue el año en que finalizó la Primera Guerra Mundial?",
-        "opciones": ["1916", "1917", "1918", "1919"],
-        "respuesta_correcta": "1918"
-      }
-    ],
-    "geografia": [
-      {
-        "informacion": "El Amazonas es el río más largo del mundo, ubicado principalmente en América del Sur.",
-        "pregunta": "¿En qué continente se encuentra el río Amazonas?",
-        "opciones": ["América", "Asia", "África", "Oceanía"],
-        "respuesta_correcta": "América"
-      }
-    ],
-    "ciencia": [
-      {
-        "informacion": "El agua está compuesta por dos átomos de hidrógeno y uno de oxígeno, lo que le da la fórmula química H₂O.",
+        "informacion": "El planeta más grande del sistema solar es Júpiter.",
+        "pregunta": "¿Cuál es el planeta más grande del sistema solar?",
+        "opciones": ["Júpiter", "Saturno", "Urano", "Neptuno"],
+        "respuesta_correcta": "Júpiter"
+    },
+    {
+        "informacion": "La capital de Francia es París, una de las ciudades más visitadas del mundo.",
+        "pregunta": "¿Cuál es la capital de Francia?",
+        "opciones": ["París", "Londres", "Berlín", "Madrid"],
+        "respuesta_correcta": "París"
+    },
+    {
+        "informacion": "La molécula de agua está compuesta por dos átomos de hidrógeno y uno de oxígeno.",
         "pregunta": "¿Cuál es la fórmula química del agua?",
-        "opciones": ["H₂O", "CO₂", "O₂", "N₂"],
-        "respuesta_correcta": "H₂O"
-      }
-    ]
-  },
-  "niveles": {
-    "facil": [
-      {
-        "informacion": "La capital de México es Ciudad de México.",
-        "pregunta": "¿Cuál es la capital de México?",
-        "opciones": ["Monterrey", "Ciudad de México", "Guadalajara"],
-        "respuesta_correcta": "Ciudad de México"
-      },
-      {
-        "informacion": "Los elefantes tienen orejas grandes que les ayudan a regular su temperatura.",
-        "pregunta": "¿Para qué sirven las orejas grandes de los elefantes?",
-        "opciones": ["Para volar", "Para regular su temperatura", "Para nadar mejor"],
-        "respuesta_correcta": "Para regular su temperatura"
-      }
-    ],
-    "intermedio": [
-      {
-        "informacion": "El idioma más hablado en el mundo es el inglés.",
-        "pregunta": "¿Cuál es el idioma más hablado en el mundo?",
-        "opciones": ["Español", "Inglés", "Chino mandarín"],
-        "respuesta_correcta": "Inglés"
-      },
-      {
-        "informacion": "La Gran Muralla China tiene más de 21,000 kilómetros de longitud.",
-        "pregunta": "¿Cuántos kilómetros mide aproximadamente la Gran Muralla China?",
-        "opciones": ["10,000 km", "Más de 21,000 km", "5,000 km"],
-        "respuesta_correcta": "Más de 21,000 km"
-      }
-    ],
-    "dificil": [
-      {
-        "informacion": "La primera novela moderna fue 'Don Quijote de la Mancha' escrita por Miguel de Cervantes.",
-        "pregunta": "¿Quién escribió 'Don Quijote de la Mancha'?",
-        "opciones": ["William Shakespeare", "Miguel de Cervantes", "Gabriel García Márquez"],
+        "opciones": ["H2O", "CO2", "O2", "H2"],
+        "respuesta_correcta": "H2O"
+    },
+    {
+        "informacion": "La Declaración de Independencia de los Estados Unidos fue firmada en 1776.",
+        "pregunta": "¿En qué año se firmó la Declaración de Independencia de los Estados Unidos?",
+        "opciones": ["1776", "1783", "1801", "1754"],
+        "respuesta_correcta": "1776"
+    },
+    {
+        "informacion": "El Monte Everest es la montaña más alta del mundo con una altura de 8,848 metros.",
+        "pregunta": "¿Cuál es la montaña más alta del mundo?",
+        "opciones": ["Monte Everest", "Monte Kilimanjaro", "Monte Aconcagua", "Monte Denali"],
+        "respuesta_correcta": "Monte Everest"
+    },
+    {
+        "informacion": "El océano Pacífico es el océano más grande del planeta.",
+        "pregunta": "¿Cuál es el océano más grande del mundo?",
+        "opciones": ["Océano Pacífico", "Océano Atlántico", "Océano Índico", "Océano Ártico"],
+        "respuesta_correcta": "Océano Pacífico"
+    },
+    {
+        "informacion": "Albert Einstein desarrolló la teoría de la relatividad en 1905.",
+        "pregunta": "¿Quién desarrolló la teoría de la relatividad?",
+        "opciones": ["Albert Einstein", "Isaac Newton", "Nikola Tesla", "Marie Curie"],
+        "respuesta_correcta": "Albert Einstein"
+    },
+    {
+        "informacion": "La fotosíntesis es el proceso mediante el cual las plantas convierten la luz solar en energía química.",
+        "pregunta": "¿Qué proceso utilizan las plantas para convertir la luz solar en energía?",
+        "opciones": ["Fotosíntesis", "Respiración celular", "Fermentación", "Digestión"],
+        "respuesta_correcta": "Fotosíntesis"
+    },
+    {
+        "informacion": "La Gran Muralla China es una de las maravillas del mundo moderno.",
+        "pregunta": "¿Qué estructura es conocida como una de las maravillas del mundo moderno?",
+        "opciones": ["La Gran Muralla China", "La Torre Eiffel", "El Coliseo", "El Taj Mahal"],
+        "respuesta_correcta": "La Gran Muralla China"
+    },
+    {
+        "informacion": "El elemento químico con el símbolo 'O' es el oxígeno.",
+        "pregunta": "¿Qué elemento químico tiene como símbolo 'O'?",
+        "opciones": ["Oxígeno", "Oro", "Osmio", "Oxalato"],
+        "respuesta_correcta": "Oxígeno"
+    }
+   {
+        "informacion": "El río Amazonas es el río más largo del mundo, con una longitud estimada de más de 7,000 kilómetros.",
+        "pregunta": "¿Cuál es el río más largo del mundo?",
+        "opciones": ["Río Amazonas", "Río Nilo", "Río Yangtsé", "Río Misisipi"],
+        "respuesta_correcta": "Río Amazonas"
+    },
+    {
+        "informacion": "La velocidad de la luz en el vacío es aproximadamente 300,000 kilómetros por segundo.",
+        "pregunta": "¿Cuál es la velocidad aproximada de la luz en el vacío?",
+        "opciones": ["300,000 km/s", "150,000 km/s", "100,000 km/s", "500,000 km/s"],
+        "respuesta_correcta": "300,000 km/s"
+    },
+    {
+        "informacion": "El inventor del teléfono fue Alexander Graham Bell.",
+        "pregunta": "¿Quién inventó el teléfono?",
+        "opciones": ["Alexander Graham Bell", "Thomas Edison", "Nikola Tesla", "Guglielmo Marconi"],
+        "respuesta_correcta": "Alexander Graham Bell"
+    },
+    {
+        "informacion": "La Guerra Fría fue un conflicto político y militar entre Estados Unidos y la Unión Soviética que duró desde 1947 hasta 1991.",
+        "pregunta": "¿Entre qué años ocurrió la Guerra Fría?",
+        "opciones": ["1947-1991", "1939-1945", "1914-1918", "1961-1989"],
+        "respuesta_correcta": "1947-1991"
+    },
+    {
+        "informacion": "El lenguaje de programación Python fue creado por Guido van Rossum en 1991.",
+        "pregunta": "¿Quién creó el lenguaje de programación Python?",
+        "opciones": ["Guido van Rossum", "Dennis Ritchie", "James Gosling", "Bjarne Stroustrup"],
+        "respuesta_correcta": "Guido van Rossum"
+    },
+    {
+        "informacion": "La Mona Lisa es una pintura famosa creada por Leonardo da Vinci.",
+        "pregunta": "¿Quién pintó la Mona Lisa?",
+        "opciones": ["Leonardo da Vinci", "Pablo Picasso", "Vincent van Gogh", "Claude Monet"],
+        "respuesta_correcta": "Leonardo da Vinci"
+    },
+    {
+        "informacion": "El sol está compuesto principalmente de hidrógeno y helio.",
+        "pregunta": "¿Cuáles son los principales elementos que componen el sol?",
+        "opciones": ["Hidrógeno y helio", "Oxígeno y nitrógeno", "Carbono y oxígeno", "Hidrógeno y oxígeno"],
+        "respuesta_correcta": "Hidrógeno y helio"
+    },
+    {
+        "informacion": "El Quijote, escrito por Miguel de Cervantes, es una de las obras literarias más importantes de la literatura española.",
+        "pregunta": "¿Quién es el autor de El Quijote?",
+        "opciones": ["Miguel de Cervantes", "Gabriel García Márquez", "Jorge Luis Borges", "Federico García Lorca"],
         "respuesta_correcta": "Miguel de Cervantes"
-      }
-    ]
-  }
-}
+    },
+    {
+        "informacion": "El Triángulo de las Bermudas es una región del Océano Atlántico asociada con misteriosas desapariciones de barcos y aviones.",
+        "pregunta": "¿En qué océano se encuentra el Triángulo de las Bermudas?",
+        "opciones": ["Océano Atlántico", "Océano Pacífico", "Océano Índico", "Océano Ártico"],
+        "respuesta_correcta": "Océano Atlántico"
+    },
+    {
+        "informacion": "El número pi es un número irracional que comienza con 3.14159.",
+        "pregunta": "¿Cuál es el valor aproximado de pi?",
+        "opciones": ["3.14159", "2.71828", "1.61803", "3.33333"],
+        "respuesta_correcta": "3.14159"
+    }
+  {
+        "informacion": "El cuerpo humano tiene 206 huesos en total en la edad adulta.",
+        "pregunta": "¿Cuántos huesos tiene el cuerpo humano adulto?",
+        "opciones": ["206", "208", "210", "200"],
+        "respuesta_correcta": "206"
+    },
+    {
+        "informacion": "El Taj Mahal es un mausoleo ubicado en Agra, India, y es considerado una de las maravillas del mundo moderno.",
+        "pregunta": "¿En qué país se encuentra el Taj Mahal?",
+        "opciones": ["India", "Egipto", "Turquía", "Tailandia"],
+        "respuesta_correcta": "India"
+    },
+    {
+        "informacion": "Los delfines son mamíferos marinos conocidos por su inteligencia y su capacidad de comunicación.",
+        "pregunta": "¿Qué tipo de animales son los delfines?",
+        "opciones": ["Mamíferos", "Peces", "Anfibios", "Reptiles"],
+        "respuesta_correcta": "Mamíferos"
+    },
+    {
+        "informacion": "La capital de Japón es Tokio, una de las ciudades más pobladas del mundo.",
+        "pregunta": "¿Cuál es la capital de Japón?",
+        "opciones": ["Tokio", "Kioto", "Osaka", "Hiroshima"],
+        "respuesta_correcta": "Tokio"
+    },
+    {
+        "informacion": "La Luna es el único satélite natural de la Tierra.",
+        "pregunta": "¿Cuál es el único satélite natural de la Tierra?",
+        "opciones": ["La Luna", "Europa", "Titán", "Fobos"],
+        "respuesta_correcta": "La Luna"
+    },
+    {
+        "informacion": "La fórmula química del dióxido de carbono es CO2.",
+        "pregunta": "¿Cuál es la fórmula química del dióxido de carbono?",
+        "opciones": ["CO2", "CH4", "H2O", "O2"],
+        "respuesta_correcta": "CO2"
+    },
+    {
+        "informacion": "El idioma más hablado en el mundo es el inglés, considerando la cantidad de hablantes nativos y no nativos.",
+        "pregunta": "¿Cuál es el idioma más hablado en el mundo?",
+        "opciones": ["Inglés", "Chino mandarín", "Español", "Hindi"],
+        "respuesta_correcta": "Inglés"
+    },
+    {
+        "informacion": "El perro es conocido como el mejor amigo del hombre y pertenece a la especie Canis lupus familiaris.",
+        "pregunta": "¿Qué animal es conocido como el mejor amigo del hombre?",
+        "opciones": ["Perro", "Gato", "Caballo", "Conejo"],
+        "respuesta_correcta": "Perro"
+    },
+    {
+        "informacion": "El cero como número fue desarrollado por matemáticos indios, entre ellos Brahmagupta, en el siglo V.",
+        "pregunta": "¿En qué país se desarrolló el concepto del número cero?",
+        "opciones": ["India", "Grecia", "Egipto", "China"],
+        "respuesta_correcta": "India"
+    },
+    {
+        "informacion": "El término biodiversidad se refiere a la variedad de formas de vida en la Tierra.",
+        "pregunta": "¿Qué significa el término biodiversidad?",
+        "opciones": [
+            "Variedad de formas de vida en la Tierra",
+            "Evolución de las especies",
+            "Estudio de los ecosistemas",
+            "Cambio climático global"
+        ]
+        "respuesta_correcta": "Variedad de formas de vida en la Tierra"
+    }
+   {
+        "informacion": "La Gran Esfinge de Guiza es una de las esculturas más antiguas del mundo y está ubicada en Egipto.",
+        "pregunta": "¿Dónde se encuentra la Gran Esfinge de Guiza?",
+        "opciones": ["Egipto", "Grecia", "México", "Italia"],
+        "respuesta_correcta": "Egipto"
+    },
+    {
+        "informacion": "La tabla periódica fue diseñada por Dmitri Mendeléyev en 1869.",
+        "pregunta": "¿Quién diseñó la tabla periódica de los elementos?",
+        "opciones": ["Dmitri Mendeléyev", "Isaac Newton", "Marie Curie", "John Dalton"],
+        "respuesta_correcta": "Dmitri Mendeléyev"
+    },
+    {
+        "informacion": "El Muro de Berlín fue derribado en 1989, marcando el fin de la Guerra Fría.",
+        "pregunta": "¿En qué año cayó el Muro de Berlín?",
+        "opciones": ["1989", "1991", "1987", "1990"],
+        "respuesta_correcta": "1989"
+    },
+    {
+        "informacion": "El órgano más grande del cuerpo humano es la piel.",
+        "pregunta": "¿Cuál es el órgano más grande del cuerpo humano?",
+        "opciones": ["La piel", "El hígado", "El cerebro", "El corazón"],
+        "respuesta_correcta": "La piel"
+    },
+    {
+        "informacion": "William Shakespeare es conocido como uno de los dramaturgos más importantes de la literatura inglesa.",
+        "pregunta": "¿Qué escritor es conocido por obras como 'Hamlet' y 'Romeo y Julieta'?",
+        "opciones": ["William Shakespeare", "Charles Dickens", "Mark Twain", "Oscar Wilde"],
+        "respuesta_correcta": "William Shakespeare"
+    },
+    {
+        "informacion": "El Amazonas es la selva tropical más grande del mundo y está ubicada en América del Sur.",
+        "pregunta": "¿Dónde se encuentra la selva amazónica?",
+        "opciones": ["América del Sur", "África", "Asia", "Oceanía"],
+        "respuesta_correcta": "América del Sur"
+    },
+    {
+        "informacion": "El número atómico del oxígeno es 8.",
+        "pregunta": "¿Cuál es el número atómico del oxígeno?",
+        "opciones": ["8", "6", "10", "12"],
+        "respuesta_correcta": "8"
+    },
+    {
+        "informacion": "La Revolución Francesa comenzó en 1789, marcando el inicio de grandes cambios sociales y políticos.",
+        "pregunta": "¿En qué año comenzó la Revolución Francesa?",
+        "opciones": ["1789", "1776", "1804", "1815"],
+        "respuesta_correcta": "1789"
+    },
+    {
+        "informacion": "La capital de Australia es Canberra, aunque muchos creen erróneamente que es Sídney.",
+        "pregunta": "¿Cuál es la capital de Australia?",
+        "opciones": ["Canberra", "Sídney", "Melbourne", "Brisbane"],
+        "respuesta_correcta": "Canberra"
+    },
+    {
+        "informacion": "La fotosíntesis ocurre en los cloroplastos de las células vegetales.",
+        "pregunta": "¿En qué parte de las células vegetales ocurre la fotosíntesis?",
+        "opciones": ["Cloroplastos", "Mitocondrias", "Núcleo", "Citoplasma"],
+        "respuesta_correcta": "Cloroplastos"
+    }
+  {
+        "informacion": "El Monte Everest, ubicado en la cordillera del Himalaya, es la montaña más alta del mundo con 8,848 metros de altura.",
+        "pregunta": "¿Cuál es la montaña más alta del mundo?",
+        "opciones": ["Monte Everest", "K2", "Kilimanjaro", "Aconcagua"],
+        "respuesta_correcta": "Monte Everest"
+    },
+    {
+        "informacion": "Albert Einstein desarrolló la teoría de la relatividad, una de las bases de la física moderna.",
+        "pregunta": "¿Quién desarrolló la teoría de la relatividad?",
+        "opciones": ["Albert Einstein", "Isaac Newton", "Stephen Hawking", "Nikola Tesla"],
+        "respuesta_correcta": "Albert Einstein"
+    },
+    {
+        "informacion": "Júpiter es el planeta más grande del sistema solar.",
+        "pregunta": "¿Cuál es el planeta más grande del sistema solar?",
+        "opciones": ["Júpiter", "Saturno", "Urano", "Neptuno"],
+        "respuesta_correcta": "Júpiter"
+    },
+    {
+        "informacion": "El término 'renaissance' significa renacimiento y se refiere a un período cultural que ocurrió entre los siglos XIV y XVII en Europa.",
+        "pregunta": "¿Qué significa la palabra 'renaissance'?",
+        "opciones": ["Renacimiento", "Revolución", "Renovación", "Reforma"],
+        "respuesta_correcta": "Renacimiento"
+    },
+    {
+        "informacion": "La fórmula química del agua es H2O, compuesta por dos átomos de hidrógeno y uno de oxígeno.",
+        "pregunta": "¿Cuál es la fórmula química del agua?",
+        "opciones": ["H2O", "CO2", "CH4", "O2"],
+        "respuesta_correcta": "H2O"
+    },
+    {
+        "informacion": "El idioma oficial de Brasil es el portugués.",
+        "pregunta": "¿Cuál es el idioma oficial de Brasil?",
+        "opciones": ["Portugués", "Español", "Inglés", "Francés"],
+        "respuesta_correcta": "Portugués"
+    },
+    {
+        "informacion": "La electricidad estática es causada por un desequilibrio de cargas eléctricas en la superficie de un material.",
+        "pregunta": "¿Qué causa la electricidad estática?",
+        "opciones": [
+            "Un desequilibrio de cargas eléctricas",
+            "Un exceso de energía térmica",
+            "Un campo magnético fuerte",
+            "La fricción del aire"
+        ],
+        "respuesta_correcta": "Un desequilibrio de cargas eléctricas"
+    },
+    {
+        "informacion": "La Torre Eiffel se encuentra en París, Francia, y es uno de los monumentos más visitados del mundo.",
+        "pregunta": "¿En qué ciudad se encuentra la Torre Eiffel?",
+        "opciones": ["París", "Londres", "Roma", "Berlín"],
+        "respuesta_correcta": "París"
+    },
+    {
+        "informacion": "Marie Curie fue la primera persona en ganar dos premios Nobel, en física y química.",
+        "pregunta": "¿Quién fue la primera persona en ganar dos premios Nobel?",
+        "opciones": ["Marie Curie", "Albert Einstein", "Isaac Newton", "Rosalind Franklin"],
+        "respuesta_correcta": "Marie Curie"
+    },
+    {
+        "informacion": "El oro tiene el símbolo químico Au en la tabla periódica.",
+        "pregunta": "¿Cuál es el símbolo químico del oro?",
+        "opciones": ["Au", "Ag", "Fe", "Cu"],
+        "respuesta_correcta": "Au"
+    }
+  {
+        "informacion": "La Antártida es el continente más frío del planeta y está cubierto casi en su totalidad por hielo.",
+        "pregunta": "¿Cuál es el continente más frío de la Tierra?",
+        "opciones": ["Antártida", "Ártico", "Asia", "Europa"],
+        "respuesta_correcta": "Antártida"
+    },
+    {
+        "informacion": "El primer hombre en caminar sobre la Luna fue Neil Armstrong, en 1969, durante la misión Apollo 11.",
+        "pregunta": "¿Quién fue el primer hombre en caminar sobre la Luna?",
+        "opciones": ["Neil Armstrong", "Buzz Aldrin", "Yuri Gagarin", "Alan Shepard"],
+        "respuesta_correcta": "Neil Armstrong"
+    },
+    {
+        "informacion": "El océano más grande del mundo es el océano Pacífico, que cubre más de 63 millones de millas cuadradas.",
+        "pregunta": "¿Cuál es el océano más grande del mundo?",
+        "opciones": ["Océano Pacífico", "Océano Atlántico", "Océano Índico", "Océano Ártico"],
+        "respuesta_correcta": "Océano Pacífico"
+    },
+    {
+        "informacion": "El Quijote de la Mancha fue escrito por Miguel de Cervantes y es una de las obras más importantes de la literatura española.",
+        "pregunta": "¿Quién escribió 'El Quijote'?",
+        "opciones": ["Miguel de Cervantes", "Gabriel García Márquez", "Federico García Lorca", "Jorge Luis Borges"],
+        "respuesta_correcta": "Miguel de Cervantes"
+    },
+    {
+        "informacion": "La velocidad de la luz en el vacío es de aproximadamente 299,792 kilómetros por segundo.",
+        "pregunta": "¿Cuál es la velocidad de la luz en el vacío?",
+        "opciones": ["299,792 km/s", "300,000 km/s", "150,000 km/s", "250,000 km/s"],
+        "respuesta_correcta": "299,792 km/s"
+    },
+    {
+        "informacion": "Las plantas producen su propio alimento a través de la fotosíntesis, utilizando luz solar, dióxido de carbono y agua.",
+        "pregunta": "¿Cómo producen su alimento las plantas?",
+        "opciones": ["Fotosíntesis", "Respiración celular", "Fermentación", "Quimiosíntesis"],
+        "respuesta_correcta": "Fotosíntesis"
+    },
+    {
+        "informacion": "La capital de Canadá es Ottawa, aunque muchas personas creen que es Toronto.",
+        "pregunta": "¿Cuál es la capital de Canadá?",
+        "opciones": ["Ottawa", "Toronto", "Vancouver", "Montreal"],
+        "respuesta_correcta": "Ottawa"
+    },
+    {
+        "informacion": "El alfabeto griego comienza con la letra alfa (α) y termina con la letra omega (ω).",
+        "pregunta": "¿Qué letra inicia el alfabeto griego?",
+        "opciones": ["Alfa", "Beta", "Gamma", "Delta"],
+        "respuesta_correcta": "Alfa"
+    },
+    {
+        "informacion": "La capa de ozono protege la Tierra de los rayos ultravioleta del Sol.",
+        "pregunta": "¿Qué capa de la atmósfera nos protege de los rayos ultravioleta?",
+        "opciones": ["Capa de ozono", "Estratosfera", "Troposfera", "Mesosfera"],
+        "respuesta_correcta": "Capa de ozono"
+    },
+    {
+        "informacion": "El río Nilo es el más largo de África, con una longitud aproximada de 6,650 kilómetros.",
+        "pregunta": "¿Cuál es el río más largo de África?",
+        "opciones": ["Nilo", "Congo", "Níger", "Zambeze"],
+        "respuesta_correcta": "Nilo"
+    }
+  {
+        "informacion": "El bosón de Higgs, también conocido como 'la partícula de Dios', fue descubierto en 2012 en el Gran Colisionador de Hadrones.",
+        "pregunta": "¿En qué año se descubrió el bosón de Higgs?",
+        "opciones": ["2012", "2008", "2015", "1998"],
+        "respuesta_correcta": "2012"
+    },
+    {
+        "informacion": "El poeta y dramaturgo griego Sófocles escribió más de 120 obras, de las cuales destacan 'Edipo Rey' y 'Antígona'.",
+        "pregunta": "¿Qué poeta griego es autor de 'Edipo Rey'?",
+        "opciones": ["Sófocles", "Eurípides", "Homero", "Esquilo"],
+        "respuesta_correcta": "Sófocles"
+    },
+    {
+        "informacion": "El número π (pi) es una constante matemática que representa la relación entre la circunferencia y el diámetro de un círculo.",
+        "pregunta": "¿Cuál es el valor aproximado de π (pi)?",
+        "opciones": ["3.1416", "2.7182", "1.618", "3.3333"],
+        "respuesta_correcta": "3.1416"
+    },
+    {
+        "informacion": "La Segunda Ley de la Termodinámica establece que la entropía de un sistema cerrado siempre tiende a aumentar.",
+        "pregunta": "¿Qué establece la Segunda Ley de la Termodinámica?",
+        "opciones": [
+            "Que la entropía de un sistema cerrado siempre aumenta",
+            "Que la energía se conserva en cualquier proceso",
+            "Que toda acción tiene una reacción opuesta",
+            "Que el trabajo es igual a la fuerza por la distancia"
+        ],
+        "respuesta_correcta": "Que la entropía de un sistema cerrado siempre aumenta"
+    },
+    {
+        "informacion": "La Guerra de los Cien Años fue un conflicto entre Inglaterra y Francia que duró 116 años (1337-1453).",
+        "pregunta": "¿Cuántos años duró realmente la Guerra de los Cien Años?",
+        "opciones": ["116 años", "100 años", "98 años", "120 años"],
+        "respuesta_correcta": "116 años"
+    },
+    {
+        "informacion": "El teorema de Pitágoras establece que en un triángulo rectángulo, el cuadrado de la hipotenusa es igual a la suma de los cuadrados de los catetos.",
+        "pregunta": "¿Qué establece el teorema de Pitágoras?",
+        "opciones": [
+            "Que el cuadrado de la hipotenusa es igual a la suma de los cuadrados de los catetos",
+            "Que la suma de los ángulos internos de un triángulo es 180 grados",
+            "Que la diagonal de un cuadrado es igual a su lado por la raíz de dos",
+            "Que la base por la altura de un triángulo dividido por dos da el área"
+        ],
+        "respuesta_correcta": "Que el cuadrado de la hipotenusa es igual a la suma de los cuadrados de los catetos"
+    },
+    {
+        "informacion": "La paradoja de Schrödinger describe un experimento mental que ilustra las complejidades de la mecánica cuántica.",
+        "pregunta": "¿Qué describe la paradoja de Schrödinger?",
+        "opciones": [
+            "Un gato que está simultáneamente vivo y muerto",
+            "La imposibilidad de medir posición y velocidad a la vez",
+            "La relación entre energía y masa",
+            "La dualidad onda-partícula de la luz"
+        ],
+        "respuesta_correcta": "Un gato que está simultáneamente vivo y muerto"
+    },
+    {
+        "informacion": "La molécula de ADN tiene una estructura de doble hélice, propuesta por Watson y Crick en 1953.",
+        "pregunta": "¿Quiénes propusieron la estructura de doble hélice del ADN?",
+        "opciones": [
+            "Watson y Crick",
+            "Mendel y Darwin",
+            "Franklin y Newton",
+            "Curie y Einstein"
+        ],
+        "respuesta_correcta": "Watson y Crick"
+    },
+    {
+        "informacion": "La velocidad del sonido en el aire es de aproximadamente 343 m/s a 20 grados Celsius.",
+        "pregunta": "¿Cuál es la velocidad aproximada del sonido en el aire a 20 °C?",
+        "opciones": ["343 m/s", "300 m/s", "400 m/s", "280 m/s"],
+        "respuesta_correcta": "343 m/s"
+    },
+    {
+        "informacion": "La paradoja del barco de Teseo plantea preguntas sobre la identidad y el cambio a lo largo del tiempo.",
+        "pregunta": "¿Qué tema filosófico aborda la paradoja del barco de Teseo?",
+        "opciones": ["La identidad y el cambio", "La percepción de la realidad", "El origen del conocimiento", "La ética del determinismo"],
+        "respuesta_correcta": "La identidad y el cambio"
+    }
+  {
+        "informacion": "La constante de Planck, denotada como h, es una constante fundamental en la mecánica cuántica, con un valor aproximado de 6.626 × 10⁻³⁴ J·s.",
+        "pregunta": "¿Cuál es el valor aproximado de la constante de Planck?",
+        "opciones": [
+            "6.626 × 10⁻³⁴ J·s",
+            "9.8 × 10³² J·s",
+            "3.1416 J·s",
+            "2.7182 J·s"
+        ],
+        "respuesta_correcta": "6.626 × 10⁻³⁴ J·s"
+    },
+    {
+        "informacion": "La tabla periódica fue desarrollada por Dmitri Mendeléyev en 1869, organizando los elementos según sus propiedades químicas.",
+        "pregunta": "¿Quién desarrolló la tabla periódica de los elementos?",
+        "opciones": ["Dmitri Mendeléyev", "Marie Curie", "Isaac Newton", "Niels Bohr"],
+        "respuesta_correcta": "Dmitri Mendeléyev"
+    },
+    {
+        "informacion": "El principio de incertidumbre de Heisenberg establece que es imposible conocer simultáneamente la posición y la velocidad exacta de una partícula subatómica.",
+        "pregunta": "¿Qué afirma el principio de incertidumbre de Heisenberg?",
+        "opciones": [
+            "Que no se puede conocer simultáneamente la posición y la velocidad exacta de una partícula",
+            "Que toda partícula tiene una energía infinita",
+            "Que los electrones orbitan el núcleo como planetas alrededor del sol",
+            "Que las partículas pueden viajar más rápido que la luz"
+        ],
+        "respuesta_correcta": "Que no se puede conocer simultáneamente la posición y la velocidad exacta de una partícula"
+    },
+    {
+        "informacion": "El elemento más abundante en el universo es el hidrógeno, representando aproximadamente el 75% de su masa.",
+        "pregunta": "¿Cuál es el elemento más abundante en el universo?",
+        "opciones": ["Hidrógeno", "Helio", "Oxígeno", "Carbono"],
+        "respuesta_correcta": "Hidrógeno"
+    },
+    {
+        "informacion": "La batalla de Hastings, que tuvo lugar en 1066, marcó el inicio del dominio normando en Inglaterra.",
+        "pregunta": "¿En qué año ocurrió la batalla de Hastings?",
+        "opciones": ["1066", "1215", "1492", "1016"],
+        "respuesta_correcta": "1066"
+    },
+    {
+        "informacion": "La paradoja de Fermi plantea la contradicción entre la alta probabilidad de vida extraterrestre y la ausencia de evidencia de su existencia.",
+        "pregunta": "¿Qué contradicción plantea la paradoja de Fermi?",
+        "opciones": [
+            "La probabilidad de vida extraterrestre frente a la falta de evidencia",
+            "La velocidad de expansión del universo frente al tiempo",
+            "El número de galaxias frente a la energía oscura",
+            "La creación del universo frente al big bang"
+        ],
+        "respuesta_correcta": "La probabilidad de vida extraterrestre frente a la falta de evidencia"
+    },
+    {
+        "informacion": "El teorema fundamental del cálculo conecta la diferenciación y la integración, dos conceptos fundamentales en el análisis matemático.",
+        "pregunta": "¿Qué conecta el teorema fundamental del cálculo?",
+        "opciones": [
+            "La diferenciación y la integración",
+            "La aritmética y el álgebra",
+            "La geometría y la trigonometría",
+            "La estadística y la probabilidad"
+        ],
+        "respuesta_correcta": "La diferenciación y la integración"
+    },
+    {
+        "informacion": "El idioma con más hablantes nativos en el mundo es el mandarín, con más de 900 millones de personas.",
+        "pregunta": "¿Cuál es el idioma con más hablantes nativos en el mundo?",
+        "opciones": ["Mandarín", "Inglés", "Español", "Hindi"],
+        "respuesta_correcta": "Mandarín"
+    },
+    {
+        "informacion": "La ecuación de Drake intenta estimar el número de civilizaciones extraterrestres avanzadas en nuestra galaxia.",
+        "pregunta": "¿Qué intenta estimar la ecuación de Drake?",
+        "opciones": [
+            "El número de civilizaciones extraterrestres avanzadas",
+            "La expansión del universo",
+            "El tiempo de vida de las estrellas",
+            "La cantidad de planetas en el sistema solar"
+        ],
+        "respuesta_correcta": "El número de civilizaciones extraterrestres avanzadas"
+    },
+    {
+        "informacion": "La fotosíntesis ocurre en los cloroplastos, estructuras celulares que contienen clorofila.",
+        "pregunta": "¿En qué parte de la célula ocurre la fotosíntesis?",
+        "opciones": ["Cloroplastos", "Mitocondrias", "Núcleo", "Ribosomas"],
+        "respuesta_correcta": "Cloroplastos"
+    }
+   {
+        "informacion": "La ecuación E=mc², formulada por Albert Einstein, establece la equivalencia entre masa y energía.",
+        "pregunta": "¿Qué describe la ecuación E=mc²?",
+        "opciones": [
+            "La equivalencia entre masa y energía",
+            "La velocidad de la luz al cuadrado",
+            "La fórmula para la fuerza gravitatoria",
+            "El cálculo de la entropía de un sistema"
+        ],
+        "respuesta_correcta": "La equivalencia entre masa y energía"
+    },
+    {
+        "informacion": "La Magna Carta, firmada en 1215, limitó el poder del rey de Inglaterra y es considerada uno de los primeros pasos hacia la democracia moderna.",
+        "pregunta": "¿En qué año se firmó la Magna Carta?",
+        "opciones": ["1215", "1066", "1492", "1315"],
+        "respuesta_correcta": "1215"
+    },
+    {
+        "informacion": "El número áureo, representado por la letra griega φ (phi), tiene un valor aproximado de 1.618 y aparece en numerosos patrones naturales y artísticos.",
+        "pregunta": "¿Cuál es el valor aproximado del número áureo?",
+        "opciones": ["1.618", "3.1416", "2.718", "1.414"],
+        "respuesta_correcta": "1.618"
+    },
+    {
+        "informacion": "La Revolución Industrial comenzó en el siglo XVIII en Inglaterra y marcó el inicio del uso masivo de maquinaria en la producción.",
+        "pregunta": "¿En qué país comenzó la Revolución Industrial?",
+        "opciones": ["Inglaterra", "Francia", "Alemania", "Estados Unidos"],
+        "respuesta_correcta": "Inglaterra"
+    },
+    {
+        "informacion": "El monte Everest es la montaña más alta del mundo, con una altura de 8,848 metros sobre el nivel del mar.",
+        "pregunta": "¿Cuál es la montaña más alta del mundo?",
+        "opciones": ["Monte Everest", "K2", "Kilimanjaro", "Mont Blanc"],
+        "respuesta_correcta": "Monte Everest"
+    },
+    {
+        "informacion": "El Reino de los Hongos incluye organismos como las setas, los mohos y las levaduras, que son heterótrofos y descomponedores.",
+        "pregunta": "¿A qué reino pertenecen las setas y los mohos?",
+        "opciones": ["Reino Fungi", "Reino Plantae", "Reino Animalia", "Reino Protista"],
+        "respuesta_correcta": "Reino Fungi"
+    },
+    {
+        "informacion": "La constante gravitacional (G) es una constante fundamental que aparece en la ley de gravitación universal de Newton.",
+        "pregunta": "¿En qué ley aparece la constante gravitacional (G)?",
+        "opciones": [
+            "Ley de gravitación universal",
+            "Ley de Coulomb",
+            "Ley de Ohm",
+            "Ley de Faraday"
+        ],
+        "respuesta_correcta": "Ley de gravitación universal"
+    },
+    {
+        "informacion": "El Día Pi, celebrado el 14 de marzo, conmemora el valor de π (pi) y coincide con el cumpleaños de Albert Einstein.",
+        "pregunta": "¿En qué fecha se celebra el Día Pi?",
+        "opciones": ["14 de marzo", "3 de enero", "28 de junio", "22 de julio"],
+        "respuesta_correcta": "14 de marzo"
+    },
+    {
+        "informacion": "La tectónica de placas es la teoría que explica la dinámica de la litosfera terrestre, formada por placas que se mueven sobre el manto.",
+        "pregunta": "¿Qué teoría explica el movimiento de la litosfera terrestre?",
+        "opciones": [
+            "Tectónica de placas",
+            "Deriva continental",
+            "Teoría del núcleo",
+            "Geodinámica terrestre"
+        ],
+        "respuesta_correcta": "Tectónica de placas"
+    },
+    {
+        "informacion": "La paradoja del gemelo, en la teoría de la relatividad, plantea cómo el tiempo se dilata para un gemelo viajando a velocidades cercanas a la luz.",
+        "pregunta": "¿Qué describe la paradoja del gemelo en la teoría de la relatividad?",
+        "opciones": [
+            "La dilatación del tiempo a altas velocidades",
+            "El comportamiento cuántico de partículas",
+            "La energía oscura del universo",
+            "La expansión del espacio-tiempo"
+        ],
+        "respuesta_correcta": "La dilatación del tiempo a altas velocidades"
+    }
+  {
+        "informacion": "El bosón de Higgs, descubierto en 2012, es una partícula subatómica que explica cómo las partículas adquieren masa.",
+        "pregunta": "¿Qué explica el bosón de Higgs?",
+        "opciones": [
+            "Cómo las partículas adquieren masa",
+            "El origen de la gravedad",
+            "La interacción entre quarks",
+            "El comportamiento de la antimateria"
+        ],
+        "respuesta_correcta": "Cómo las partículas adquieren masa"
+    },
+    {
+        "informacion": "La Guerra de los Cien Años fue un conflicto entre Inglaterra y Francia que se extendió desde 1337 hasta 1453.",
+        "pregunta": "¿Cuánto tiempo duró la Guerra de los Cien Años?",
+        "opciones": ["116 años", "100 años", "87 años", "120 años"],
+        "respuesta_correcta": "116 años"
+    },
+    {
+        "informacion": "El efecto fotoeléctrico es un fenómeno físico en el que los electrones son emitidos por un material al ser iluminado con luz.",
+        "pregunta": "¿Qué ocurre en el efecto fotoeléctrico?",
+        "opciones": [
+            "Los electrones son emitidos por un material al recibir luz",
+            "La luz se refracta en un prisma",
+            "Los fotones se convierten en partículas de materia",
+            "La energía de la luz aumenta con la intensidad"
+        ],
+        "respuesta_correcta": "Los electrones son emitidos por un material al recibir luz"
+    },
+    {
+        "informacion": "La segunda ley de la termodinámica establece que la entropía de un sistema aislado tiende a aumentar con el tiempo.",
+        "pregunta": "¿Qué establece la segunda ley de la termodinámica?",
+        "opciones": [
+            "Que la entropía de un sistema aislado tiende a aumentar",
+            "Que la energía no puede ser creada ni destruida",
+            "Que la materia no puede viajar más rápido que la luz",
+            "Que el calor siempre fluye de objetos fríos a calientes"
+        ],
+        "respuesta_correcta": "Que la entropía de un sistema aislado tiende a aumentar"
+    },
+    {
+        "informacion": "La Batalla de Salamina, en 480 a.C., fue una importante victoria naval griega contra los persas durante las Guerras Médicas.",
+        "pregunta": "¿En qué año ocurrió la Batalla de Salamina?",
+        "opciones": ["480 a.C.", "490 a.C.", "479 a.C.", "500 a.C."],
+        "respuesta_correcta": "480 a.C."
+    },
+    {
+        "informacion": "El número de Avogadro, aproximadamente 6.022 × 10²³, representa el número de partículas en un mol de sustancia.",
+        "pregunta": "¿Qué representa el número de Avogadro?",
+        "opciones": [
+            "El número de partículas en un mol de sustancia",
+            "La constante de la velocidad de la luz",
+            "El valor de la carga de un electrón",
+            "La cantidad de energía en una partícula"
+        ],
+        "respuesta_correcta": "El número de partículas en un mol de sustancia"
+    },
+    {
+        "informacion": "El Pacto de Varsovia, firmado en 1955, fue una alianza militar liderada por la Unión Soviética durante la Guerra Fría.",
+        "pregunta": "¿En qué año se firmó el Pacto de Varsovia?",
+        "opciones": ["1955", "1949", "1961", "1950"],
+        "respuesta_correcta": "1955"
+    },
+    {
+        "informacion": "La molécula de ADN tiene una estructura de doble hélice, descubierta por Watson y Crick en 1953.",
+        "pregunta": "¿Qué forma tiene la molécula de ADN?",
+        "opciones": ["Doble hélice", "Cadena lineal", "Círculo cerrado", "Red tridimensional"],
+        "respuesta_correcta": "Doble hélice"
+    },
+    {
+        "informacion": "El colisionador de hadrones del CERN es el acelerador de partículas más grande del mundo, ubicado en Suiza.",
+        "pregunta": "¿Dónde se encuentra el colisionador de hadrones del CERN?",
+        "opciones": ["Suiza", "Estados Unidos", "Alemania", "Reino Unido"],
+        "respuesta_correcta": "Suiza"
+    },
+    {
+        "informacion": "La teoría del caos describe cómo sistemas dinámicos deterministas pueden mostrar comportamientos impredecibles.",
+        "pregunta": "¿Qué describe la teoría del caos?",
+        "opciones": [
+            "El comportamiento impredecible de sistemas dinámicos deterministas",
+            "La expansión acelerada del universo",
+            "El ciclo de vida de una estrella",
+            "La interacción entre materia y antimateria"
+        ],
+        "respuesta_correcta": "El comportamiento impredecible de sistemas dinámicos deterministas"
+    }
+  
+  
