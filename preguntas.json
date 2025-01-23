@@ -698,6 +698,545 @@
             "La interacción entre materia y antimateria"
         ],
         "respuesta_correcta": "El comportamiento impredecible de sistemas dinámicos deterministas"
+    },
+     {
+        "informacion": "La pintura 'La noche estrellada' fue creada por Vincent van Gogh en 1889 durante su estancia en un asilo en Saint-Rémy-de-Provence.",
+        "pregunta": "¿Quién pintó 'La noche estrellada'?",
+        "opciones": [
+            "Claude Monet",
+            "Vincent van Gogh",
+            "Pablo Picasso",
+            "Salvador Dalí"
+        ],
+        "respuesta_correcta": "Vincent van Gogh"
+    },
+    {
+        "informacion": "La mitocondria es conocida como la 'central eléctrica' de la célula porque produce energía en forma de ATP.",
+        "pregunta": "¿Qué organelo celular se conoce como la 'central eléctrica' de la célula?",
+        "opciones": [
+            "Núcleo",
+            "Mitocondria",
+            "Cloroplasto",
+            "Ribosoma"
+        ],
+        "respuesta_correcta": "Mitocondria"
+    },
+    {
+        "informacion": "El Monte Everest es la montaña más alta del mundo, con una altitud de 8,848 metros sobre el nivel del mar.",
+        "pregunta": "¿Cuál es la montaña más alta del mundo?",
+        "opciones": [
+            "Monte Everest",
+            "K2",
+            "Makalu",
+            "Annapurna"
+        ],
+        "respuesta_correcta": "Monte Everest"
+    },
+    {
+        "informacion": "La Revolución Industrial comenzó en Inglaterra a finales del siglo XVIII y marcó un cambio importante en la producción de bienes.",
+        "pregunta": "¿Dónde comenzó la Revolución Industrial?",
+        "opciones": [
+            "Francia",
+            "Alemania",
+            "Inglaterra",
+            "Estados Unidos"
+        ],
+        "respuesta_correcta": "Inglaterra"
+    },
+    {
+        "informacion": "El elemento químico con el símbolo 'Au' es el oro, conocido por su maleabilidad y valor en joyería y economía.",
+        "pregunta": "¿Qué elemento químico tiene el símbolo 'Au'?",
+        "opciones": [
+            "Oro",
+            "Plata",
+            "Cobre",
+            "Platino"
+        ],
+        "respuesta_correcta": "Oro"
+    },
+    {
+        "informacion": "El río Amazonas es el más caudaloso del mundo y atraviesa países como Brasil, Perú y Colombia.",
+        "pregunta": "¿Cuál es el río más caudaloso del mundo?",
+        "opciones": [
+            "Nilo",
+            "Misisipi",
+            "Yangtsé",
+            "Amazonas"
+        ],
+        "respuesta_correcta": "Amazonas"
+    },
+    {
+        "informacion": "El Teorema de Pitágoras establece que en un triángulo rectángulo, el cuadrado de la hipotenusa es igual a la suma de los cuadrados de los catetos.",
+        "pregunta": "¿Qué establece el Teorema de Pitágoras?",
+        "opciones": [
+            "La relación entre el perímetro y el área de un círculo",
+            "El cuadrado de la hipotenusa es igual a la suma de los cuadrados de los catetos",
+            "La equivalencia entre lados opuestos de un triángulo equilátero",
+            "La fórmula para calcular el volumen de un cubo"
+        ],
+        "respuesta_correcta": "El cuadrado de la hipotenusa es igual a la suma de los cuadrados de los catetos"
+    },
+    {
+        "informacion": "El idioma mandarín, hablado principalmente en China, es el idioma con mayor número de hablantes nativos en el mundo.",
+        "pregunta": "¿Cuál es el idioma con más hablantes nativos en el mundo?",
+        "opciones": [
+            "Inglés",
+            "Español",
+            "Hindú",
+            "Mandarín"
+        ],
+        "respuesta_correcta": "Mandarín"
+    },
+    {
+        "informacion": "El Titanic, un transatlántico británico, se hundió en su viaje inaugural en 1912 tras chocar con un iceberg.",
+        "pregunta": "¿En qué año se hundió el Titanic?",
+        "opciones": [
+            "1912",
+            "1905",
+            "1920",
+            "1898"
+        ],
+        "respuesta_correcta": "1912"
+    },
+    {
+        "informacion": "La velocidad del sonido en el aire es de aproximadamente 343 metros por segundo a una temperatura de 20 grados Celsius.",
+        "pregunta": "¿Cuál es la velocidad aproximada del sonido en el aire a 20°C?",
+        "opciones": [
+            "1,000 metros por segundo",
+            "343 metros por segundo",
+            "120 metros por segundo",
+            "750 metros por segundo"
+        ],
+        "respuesta_correcta": "343 metros por segundo"
+    },
+     {
+        "informacion": "La aurora boreal, también conocida como luces del norte, es un fenómeno natural causado por la interacción entre partículas solares y el campo magnético terrestre.",
+        "pregunta": "¿Qué causa la aurora boreal?",
+        "opciones": [
+            "Interacción entre partículas solares y el campo magnético terrestre",
+            "Reflejo de la luz solar en el hielo polar",
+            "Actividad volcánica en el Ártico",
+            "Choque de meteoros en la atmósfera"
+        ],
+        "respuesta_correcta": "Interacción entre partículas solares y el campo magnético terrestre"
+    },
+    {
+        "informacion": "La Guerra de los Cien Años fue un conflicto entre Inglaterra y Francia que se desarrolló intermitentemente entre 1337 y 1453.",
+        "pregunta": "¿Entre qué países ocurrió la Guerra de los Cien Años?",
+        "opciones": [
+            "España e Inglaterra",
+            "Inglaterra y Francia",
+            "Francia y Alemania",
+            "Italia y España"
+        ],
+        "respuesta_correcta": "Inglaterra y Francia"
+    },
+    {
+        "informacion": "La teoría de la relatividad general fue publicada por Albert Einstein en 1915 y cambió la comprensión de la gravedad en el universo.",
+        "pregunta": "¿Quién desarrolló la teoría de la relatividad general?",
+        "opciones": [
+            "Stephen Hawking",
+            "Albert Einstein",
+            "Isaac Newton",
+            "Galileo Galilei"
+        ],
+        "respuesta_correcta": "Albert Einstein"
+    },
+    {
+        "informacion": "El Salvador es el país más pequeño de América Central, conocido por su producción de café y playas para practicar surf.",
+        "pregunta": "¿Cuál es el país más pequeño de América Central?",
+        "opciones": [
+            "Belice",
+            "El Salvador",
+            "Honduras",
+            "Panamá"
+        ],
+        "respuesta_correcta": "El Salvador"
+    },
+    {
+        "informacion": "El sistema métrico utiliza el metro como unidad base para medir longitudes, adoptado internacionalmente en el siglo XVIII.",
+        "pregunta": "¿Cuál es la unidad base del sistema métrico para medir longitudes?",
+        "opciones": [
+            "Pulgada",
+            "Metro",
+            "Pie",
+            "Yarda"
+        ],
+        "respuesta_correcta": "Metro"
+    },
+    {
+        "informacion": "La ópera 'La flauta mágica' fue compuesta por Wolfgang Amadeus Mozart y se estrenó en 1791 en Viena.",
+        "pregunta": "¿Quién compuso 'La flauta mágica'?",
+        "opciones": [
+            "Ludwig van Beethoven",
+            "Wolfgang Amadeus Mozart",
+            "Johann Sebastian Bach",
+            "Franz Schubert"
+        ],
+        "respuesta_correcta": "Wolfgang Amadeus Mozart"
+    },
+    {
+        "informacion": "El desierto de Atacama, ubicado en Chile, es considerado el lugar más seco del mundo.",
+        "pregunta": "¿Dónde se encuentra el desierto más seco del mundo?",
+        "opciones": [
+            "Sahara",
+            "Atacama",
+            "Kalahari",
+            "Gobi"
+        ],
+        "respuesta_correcta": "Atacama"
+    },
+    {
+        "informacion": "El ADN (ácido desoxirribonucleico) contiene las instrucciones genéticas para el desarrollo y funcionamiento de los organismos vivos.",
+        "pregunta": "¿Qué molécula contiene las instrucciones genéticas de los seres vivos?",
+        "opciones": [
+            "ARN",
+            "ADN",
+            "Proteínas",
+            "Enzimas"
+        ],
+        "respuesta_correcta": "ADN"
+    },
+    {
+        "informacion": "El Taj Mahal, ubicado en la India, fue construido en el siglo XVII por el emperador Shah Jahan como un mausoleo para su esposa.",
+        "pregunta": "¿En qué país se encuentra el Taj Mahal?",
+        "opciones": [
+            "India",
+            "Pakistán",
+            "Irán",
+            "Nepal"
+        ],
+        "respuesta_correcta": "India"
+    },
+    {
+        "informacion": "La energía eólica se genera utilizando el viento para mover turbinas que producen electricidad.",
+        "pregunta": "¿Qué fuente de energía utiliza el viento para generar electricidad?",
+        "opciones": [
+            "Energía solar",
+            "Energía geotérmica",
+            "Energía eólica",
+            "Energía hidroeléctrica"
+        ],
+        "respuesta_correcta": "Energía eólica"
+    },
+     {
+        "informacion": "La Revolución Industrial comenzó en el siglo XVIII en Inglaterra, marcando el inicio de una era de avances tecnológicos y cambios sociales.",
+        "pregunta": "¿Dónde comenzó la Revolución Industrial?",
+        "opciones": [
+            "Alemania",
+            "Francia",
+            "Estados Unidos",
+            "Inglaterra"
+        ],
+        "respuesta_correcta": "Inglaterra"
+    },
+    {
+        "informacion": "El elemento químico helio fue descubierto en 1868 al estudiar el espectro solar.",
+        "pregunta": "¿Cuál fue el primer elemento químico descubierto fuera de la Tierra?",
+        "opciones": [
+            "Helio",
+            "Hidrógeno",
+            "Oxígeno",
+            "Neón"
+        ],
+        "respuesta_correcta": "Helio"
+    },
+    {
+        "informacion": "La Gioconda, también conocida como 'La Mona Lisa', fue pintada por Leonardo da Vinci entre 1503 y 1519.",
+        "pregunta": "¿Quién pintó 'La Mona Lisa'?",
+        "opciones": [
+            "Leonardo da Vinci",
+            "Miguel Ángel",
+            "Rafael",
+            "Sandro Botticelli"
+        ],
+        "respuesta_correcta": "Leonardo da Vinci"
+    },
+    {
+        "informacion": "El Monte Everest, con una altura de 8,848 metros, es la montaña más alta del mundo y se encuentra en la cordillera del Himalaya.",
+        "pregunta": "¿Dónde se encuentra el Monte Everest?",
+        "opciones": [
+            "Cordillera de los Andes",
+            "Alpes",
+            "Himalaya",
+            "Montes Urales"
+        ],
+        "respuesta_correcta": "Himalaya"
+    },
+    {
+        "informacion": "El sistema nervioso humano está compuesto por el cerebro, la médula espinal y los nervios periféricos.",
+        "pregunta": "¿Qué partes forman el sistema nervioso humano?",
+        "opciones": [
+            "Cerebro, médula espinal y nervios periféricos",
+            "Corazón, pulmones y cerebro",
+            "Cerebro, riñones y vasos sanguíneos",
+            "Piel, músculos y huesos"
+        ],
+        "respuesta_correcta": "Cerebro, médula espinal y nervios periféricos"
+    },
+    {
+        "informacion": "El 'Pájaro Dodo' se extinguió debido a la caza excesiva y la introducción de especies invasoras en su hábitat en el siglo XVII.",
+        "pregunta": "¿Cuál fue una de las principales razones de la extinción del dodo?",
+        "opciones": [
+            "Pérdida de hábitat por cambio climático",
+            "Caza excesiva y especies invasoras",
+            "Falta de alimentos en su entorno",
+            "Erupción volcánica en su isla"
+        ],
+        "respuesta_correcta": "Caza excesiva y especies invasoras"
+    },
+    {
+        "informacion": "La electricidad estática ocurre cuando se acumula un exceso de carga eléctrica en un objeto.",
+        "pregunta": "¿Qué fenómeno ocurre cuando un objeto acumula un exceso de carga eléctrica?",
+        "opciones": [
+            "Electricidad estática",
+            "Magnetismo",
+            "Energía cinética",
+            "Inducción térmica"
+        ],
+        "respuesta_correcta": "Electricidad estática"
+    },
+    {
+        "informacion": "El libro '1984', escrito por George Orwell, es una novela distópica publicada en 1949.",
+        "pregunta": "¿Quién escribió el libro '1984'?",
+        "opciones": [
+            "Aldous Huxley",
+            "George Orwell",
+            "Ray Bradbury",
+            "Margaret Atwood"
+        ],
+        "respuesta_correcta": "George Orwell"
+    },
+    {
+        "informacion": "El sistema solar tiene ocho planetas principales, de los cuales Júpiter es el más grande.",
+        "pregunta": "¿Cuál es el planeta más grande del sistema solar?",
+        "opciones": [
+            "Júpiter",
+            "Saturno",
+            "Urano",
+            "Neptuno"
+        ],
+        "respuesta_correcta": "Júpiter"
+    },
+    {
+        "informacion": "El idioma oficial de Brasil es el portugués, debido a la colonización portuguesa en el siglo XVI.",
+        "pregunta": "¿Cuál es el idioma oficial de Brasil?",
+        "opciones": [
+            "Español",
+            "Portugués",
+            "Inglés",
+            "Francés"
+        ],
+        "respuesta_correcta": "Portugués"
+    },
+    {
+        "informacion": "El Puente Golden Gate, ubicado en San Francisco, California, fue inaugurado en 1937 y es uno de los puentes colgantes más famosos del mundo.",
+        "pregunta": "¿En qué ciudad se encuentra el Puente Golden Gate?",
+        "opciones": [
+            "Nueva York",
+            "San Francisco",
+            "Los Ángeles",
+            "Chicago"
+        ],
+        "respuesta_correcta": "San Francisco"
+    },
+    {
+        "informacion": "El Titanic fue un famoso transatlántico británico que se hundió en su viaje inaugural en 1912 tras chocar con un iceberg.",
+        "pregunta": "¿Qué año se hundió el Titanic?",
+        "opciones": [
+            "1910",
+            "1912",
+            "1908",
+            "1914"
+        ],
+        "respuesta_correcta": "1912"
+    },
+    {
+        "informacion": "El movimiento artístico conocido como impresionismo surgió en Francia a finales del siglo XIX, con artistas como Claude Monet y Pierre-Auguste Renoir.",
+        "pregunta": "¿En qué país surgió el impresionismo?",
+        "opciones": [
+            "Italia",
+            "Francia",
+            "España",
+            "Inglaterra"
+        ],
+        "respuesta_correcta": "Francia"
+    },
+    {
+        "informacion": "El continente de Oceanía incluye países como Australia, Nueva Zelanda y Papúa Nueva Guinea.",
+        "pregunta": "¿Cuál de estos países pertenece al continente de Oceanía?",
+        "opciones": [
+            "Sudáfrica",
+            "Argentina",
+            "Australia",
+            "India"
+        ],
+        "respuesta_correcta": "Australia"
+    },
+    {
+        "informacion": "El órgano más grande del cuerpo humano es la piel, que tiene funciones como protección y regulación de la temperatura.",
+        "pregunta": "¿Cuál es el órgano más grande del cuerpo humano?",
+        "opciones": [
+            "Hígado",
+            "Cerebro",
+            "Piel",
+            "Corazón"
+        ],
+        "respuesta_correcta": "Piel"
+    },
+    {
+        "informacion": "La Torre de Pisa, famosa por su inclinación, se encuentra en la ciudad de Pisa, Italia.",
+        "pregunta": "¿En qué país se encuentra la Torre de Pisa?",
+        "opciones": [
+            "Francia",
+            "Italia",
+            "Grecia",
+            "Alemania"
+        ],
+        "respuesta_correcta": "Italia"
+    },
+    {
+        "informacion": "El idioma mandarín es el idioma con más hablantes nativos en el mundo.",
+        "pregunta": "¿Cuál es el idioma con más hablantes nativos en el mundo?",
+        "opciones": [
+            "Inglés",
+            "Mandarín",
+            "Español",
+            "Hindi"
+        ],
+        "respuesta_correcta": "Mandarín"
+    },
+    {
+        "informacion": "El Premio Nobel de la Paz se otorga anualmente a personas u organizaciones que han contribuido significativamente a la paz mundial.",
+        "pregunta": "¿Qué galardón se otorga por contribuciones significativas a la paz mundial?",
+        "opciones": [
+            "Premio Pulitzer",
+            "Premio Nobel de la Paz",
+            "Premio Grammy",
+            "Premio Oscar"
+        ],
+        "respuesta_correcta": "Premio Nobel de la Paz"
+    },
+    {
+        "informacion": "El cometa Halley es visible desde la Tierra aproximadamente cada 76 años.",
+        "pregunta": "¿Cada cuántos años es visible el cometa Halley desde la Tierra?",
+        "opciones": [
+            "76 años",
+            "50 años",
+            "100 años",
+            "120 años"
+        ],
+        "respuesta_correcta": "76 años"
+    },
+    {
+        "informacion": "El Río Amazonas, ubicado en América del Sur, es el río más caudaloso del mundo.",
+        "pregunta": "¿Cuál es el río más caudaloso del mundo?",
+        "opciones": [
+            "Nilo",
+            "Amazonas",
+            "Yangtsé",
+            "Mississippi"
+        ],
+        "respuesta_correcta": "Amazonas"
+    },
+      {
+        "informacion": "El Coliseo, uno de los monumentos más icónicos del mundo, está ubicado en Roma, Italia, y fue construido en el año 80 d.C.",
+        "pregunta": "¿En qué ciudad se encuentra el Coliseo?",
+        "opciones": [
+            "Atenas",
+            "Roma",
+            "París",
+            "Estambul"
+        ],
+        "respuesta_correcta": "Roma"
+    },
+    {
+        "informacion": "La velocidad de la luz en el vacío es de aproximadamente 299,792 kilómetros por segundo.",
+        "pregunta": "¿Cuál es la velocidad de la luz en el vacío?",
+        "opciones": [
+            "299,792 km/s",
+            "150,000 km/s",
+            "3,000 km/s",
+            "1,080 km/s"
+        ],
+        "respuesta_correcta": "299,792 km/s"
+    },
+    {
+        "informacion": "El Muro de Berlín fue un símbolo de la Guerra Fría y cayó en 1989, marcando el fin de una era de división en Europa.",
+        "pregunta": "¿En qué año cayó el Muro de Berlín?",
+        "opciones": [
+            "1990",
+            "1989",
+            "1985",
+            "1991"
+        ],
+        "respuesta_correcta": "1989"
+    },
+    {
+        "informacion": "El planeta Venus es conocido como el planeta más caliente del sistema solar debido a su densa atmósfera de dióxido de carbono.",
+        "pregunta": "¿Cuál es el planeta más caliente del sistema solar?",
+        "opciones": [
+            "Mercurio",
+            "Venus",
+            "Marte",
+            "Júpiter"
+        ],
+        "respuesta_correcta": "Venus"
+    },
+    {
+        "informacion": "La Batalla de Waterloo, librada en 1815, marcó la derrota definitiva de Napoleón Bonaparte.",
+        "pregunta": "¿Qué batalla marcó la derrota final de Napoleón Bonaparte?",
+        "opciones": [
+            "Batalla de Trafalgar",
+            "Batalla de Waterloo",
+            "Batalla de Austerlitz",
+            "Batalla de Borodinó"
+        ],
+        "respuesta_correcta": "Batalla de Waterloo"
+    },
+    {
+        "informacion": "La primera computadora electrónica, llamada ENIAC, fue desarrollada en 1945.",
+        "pregunta": "¿Cuál fue el nombre de la primera computadora electrónica?",
+        "opciones": [
+            "Colossus",
+            "ENIAC",
+            "UNIVAC",
+            "Altair 8800"
+        ],
+        "respuesta_correcta": "ENIAC"
+    },
+    {
+        "informacion": "El Desierto del Sahara, ubicado en el norte de África, es el desierto cálido más grande del mundo.",
+        "pregunta": "¿Cuál es el desierto cálido más grande del mundo?",
+        "opciones": [
+            "Desierto de Gobi",
+            "Desierto de Atacama",
+            "Sahara",
+            "Kalahari"
+        ],
+        "respuesta_correcta": "Sahara"
+    },
+    {
+        "informacion": "El filósofo griego Sócrates es conocido por su método de enseñanza basado en preguntas y respuestas, conocido como la mayéutica.",
+        "pregunta": "¿Qué filósofo desarrolló el método de la mayéutica?",
+        "opciones": [
+            "Aristóteles",
+            "Platón",
+            "Sócrates",
+            "Pitágoras"
+        ],
+        "respuesta_correcta": "Sócrates"
+    },
+    {
+        "informacion": "La Primera Ley de Newton establece que un objeto en reposo permanecerá en reposo y un objeto en movimiento continuará en movimiento a menos que una fuerza externa actúe sobre él.",
+        "pregunta": "¿Qué describe la Primera Ley de Newton?",
+        "opciones": [
+            "La inercia de los objetos",
+            "La aceleración de los cuerpos",
+            "La fuerza de acción y reacción",
+            "La atracción gravitacional"
+        ],
+        "respuesta_correcta": "La inercia de los objetos"
     }
-  
+    
   ]
